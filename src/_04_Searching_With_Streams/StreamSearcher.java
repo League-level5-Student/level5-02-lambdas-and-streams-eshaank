@@ -16,6 +16,6 @@ public class StreamSearcher {
 		
 		//4. Return the count of the filtered stream.
 		
-		return 0;
+		return Stream.of(strArr).filter((i) -> i.equals(strToCount)).count();
 	}
 }
