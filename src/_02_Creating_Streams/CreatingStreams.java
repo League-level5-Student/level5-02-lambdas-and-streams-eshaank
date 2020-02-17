@@ -36,5 +36,6 @@ public class CreatingStreams {
 		dQueue.push(3.0);
 		
 		Stream.of(dQueue).forEach((i) -> System.out.println(i));
-	}
+
+		
 }
